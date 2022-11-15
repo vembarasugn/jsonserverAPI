@@ -1,15 +1,16 @@
 {
   "name": "jsonserver",
   "version": "1.0.0",
-  "description": "Advora test dada ",
+  "description": "Advora test data ",
   "main": "index.js",
   "scripts": {
-    "server": " npx json-server --watch database.json"
+    "start": "node index.js"
   },
   "author": "Vembarasan N",
   "license": "ISC",
   "dependencies": {
     "json": "^11.0.0",
+    "json-server": "^0.17.1",
     "server": "^1.0.37"
   }
 }
